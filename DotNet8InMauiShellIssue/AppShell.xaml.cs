@@ -4,7 +4,7 @@
     {
         public AppShell()
         {
-            Routing.RegisterRoute(nameof(NewPage), typeof(NewPage));//局域网发送界面
+            Routing.RegisterRoute(nameof(NewPage), typeof(NewPage));
             InitializeComponent();
         }
     }
